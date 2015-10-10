@@ -1,7 +1,7 @@
 // CONFIG VALUES
 var api_url = 'https://www.coinigy.com/api/v1/';
-var coinigy_api_key = '26594a8cd00b644a76a545c430f2abdf';
-var coinigy_api_secret = '0a17b6739cf814d30cc8a905cea291f9';  
+var coinigy_api_key = '';
+var coinigy_api_secret = '';  
 // END CONFIG VALUES
 
 
