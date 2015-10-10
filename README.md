@@ -2,6 +2,8 @@
 
 Integrate your Coinigy account with a Google Spreadsheets to pull in accounts, balances, data, and more!
 
+
+![Spreadsheet screenshot](http://i.imgur.com/uh0br8L.png "Coinigy Integrated Spreadsheet")
 # Installation
 
 1. Open your Google Spreadsheet and click Tools -> Script Editor
