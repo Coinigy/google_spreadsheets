@@ -10,7 +10,9 @@ Integrate your Coinigy account with a Google Spreadsheets to pull in accounts, b
 2. Click File -> New -> Script File and name it "CoinigyJSON.js"
 3. Paste in ImportJSON.gs from this repository and click save
 4. Enter config values such as your Coinigy API Key/Secret
-5. Run commands through formulas like "=CoinigyGetAccounts()"
+5. Click "Save" and then "Play" (green sidways triangle button)
+6. Address any errors.  If you don't get any error/message, you should be all set
+5. Switch back to the spreadsheet and run commands through formulas like "=CoinigyGetAccounts()"
 
 
 # Usage
