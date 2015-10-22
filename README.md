@@ -1,6 +1,6 @@
 # Coinigy Google Spreadsheets Integration
 
-Integrate your Coinigy account with a Google Spreadsheets to pull in accounts, balances, data, and more!
+Integrate your Coinigy account with a Google Spreadsheet to pull in account info, balances, data, and more!
 
 
 ![Spreadsheet screenshot](http://i.imgur.com/uh0br8L.png "Coinigy Integrated Spreadsheet")
