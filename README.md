@@ -6,13 +6,12 @@ Integrate your Coinigy account with a Google Spreadsheet to pull in account info
 ![Spreadsheet screenshot](http://i.imgur.com/uh0br8L.png "Coinigy Integrated Spreadsheet")
 # Installation
 
-1. Open your Google Spreadsheet and click Tools -> Script Editor
-2. Click File -> New -> Script File and name it "CoinigyJSON.js"
-3. Paste in ImportJSON.gs from this repository and click save
-4. Enter config values such as your Coinigy API Key/Secret
-5. Click "Save" and then "Play" (green sidways triangle button)
-6. Address any errors.  If you don't get any error/message, you should be all set
-5. Switch back to the spreadsheet and run commands through formulas like "=CoinigyGetAccounts()"
+1. Open this shared read-only Google Sheet: https://docs.google.com/spreadsheets/d/1U41ChP3epC3QELmtmSDPGvPpIee0OQ_Gww89fY-jW4g/edit?usp=sharing
+2. Go to File -> Make a copy and create a new copy of the sheet
+3. Open your copy and switch to the "Config" sheet to add your API key/secret
+4. Switch to the "Coinigy Enabled Sheet" and build your sheet as necessary
+5. If you add a final parameter with a value of "A1" (without quotes) to your function calls, the function will update when you click the "Refresh" button
+
 
 
 # Usage
@@ -20,9 +19,9 @@ Integrate your Coinigy account with a Google Spreadsheet to pull in account info
 ##### =CoinigyGetAccounts()
 * LIST ALL ATTACHED COINIGY ACCOUNTS.  USE TO FIND auth_id FOR DESIRED ACCOUNT TO USE IN FUNCTION CALLS
 
-##### =CoinigyGetAccountBalance(auth_id)
+##### =CoinigyGetAccountBalance(auth_id, A1)
 * RETURNS TOTAL BALANCE IN BTC FOR REQUESTED ACCOUNT
 
-##### =CoinigyGetBalance(auth_id, curr_code, btc)
+##### =CoinigyGetBalance(auth_id, curr_code, btc, A1)
 * RETURNS TOTAL BALANCE FOR REQUESTED ACCOUNT IN EITHER NATIVE CURRENCY (btc=false) OR IN BTC VALUE (btc=true) 
 * BTC CONVERSION MAY NOT WORK FOR FIAT AT THIS TIME (untested)
